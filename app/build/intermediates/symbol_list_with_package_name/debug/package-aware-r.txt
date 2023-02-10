@@ -2607,7 +2607,6 @@ id bounceStart
 id button10
 id button11
 id button12
-id button13
 id button15
 id button16
 id button17
@@ -2625,6 +2624,7 @@ id button9
 id buttonDelenie
 id buttonOne
 id buttonPanel
+id buttonPlus
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2956,7 +2956,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView3
+id textViewDisplay
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

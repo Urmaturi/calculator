@@ -12,7 +12,6 @@ drawable ic_launcher_foreground
 id button10
 id button11
 id button12
-id button13
 id button15
 id button16
 id button17
@@ -29,8 +28,9 @@ id button8
 id button9
 id buttonDelenie
 id buttonOne
+id buttonPlus
 id textView
-id textView3
+id textViewDisplay
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

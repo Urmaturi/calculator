@@ -2606,7 +2606,6 @@ int id bounceStart 0x7f080061
 int id button10 0x7f0801df
 int id button11 0x7f0801e0
 int id button12 0x7f0801e1
-int id button13 0x7f0801e2
 int id button15 0x7f0801e3
 int id button16 0x7f0801e4
 int id button17 0x7f0801e5
@@ -2624,6 +2623,7 @@ int id button9 0x7f0801f0
 int id buttonDelenie 0x7f0801f1
 int id buttonOne 0x7f0801f2
 int id buttonPanel 0x7f080063
+int id buttonPlus 0x7f0801f4
 int id cache_measures 0x7f080064
 int id callMeasure 0x7f080065
 int id cancel_button 0x7f080066
@@ -2955,7 +2955,7 @@ int id textSpacerNoTitle 0x7f0801ac
 int id textStart 0x7f0801ad
 int id textTop 0x7f0801ae
 int id textView 0x7f0801af
-int id textView3 0x7f0801f3
+int id textViewDisplay 0x7f0801f5
 int id text_input_end_icon 0x7f0801b0
 int id text_input_error_icon 0x7f0801b1
 int id text_input_start_icon 0x7f0801b2
