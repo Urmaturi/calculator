@@ -17,13 +17,24 @@ class MainActivity : AppCompatActivity() {
         textViewDiplay = findViewById(R.id.textViewDisplay)
         buttonPlus = findViewById(R.id.buttonPlus)
 
-
     }
 
 
+    fun onClick(v: View) {
+        // по id определеяем кнопку, вызвавшую этот обработчик
+        when(v.id) {
+            // кнопка О1
+                R.id.
+
+
+            R.id.btnOk -> tvOut.text = "Нажата кнопка ОК"
+            // кнопка Cancel
+            R.id.btnCancel -> tvOut.text = "Нажата кнопка Cancel"
+        }
+    }
+
     fun textAdd(view: View) {
         textViewDiplay.text = textViewDiplay.text.toString() + buttonPlus.text.toString()
-
     }
 
     fun clearAll(view: View) {
@@ -32,9 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     fun backspace(view: View)
     {
-
         val temp  = textViewDiplay.text.chunked(1)
-
         var z = ""
         var i = 0
         while (i<temp.size-1)
@@ -42,14 +51,9 @@ class MainActivity : AppCompatActivity() {
             z+=temp[i]
             i++
         }
-
         textViewDiplay.text = z
-
-
-
-
-
     }
+
 
 
 
