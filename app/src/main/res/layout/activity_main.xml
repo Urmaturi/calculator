@@ -20,6 +20,8 @@
         android:id="@+id/buttonDelenie"
         android:layout_width="61dp"
         android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:onClick="textAdd"
         android:text="@string/delenie"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -27,7 +29,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDisplay" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonUmnogenie"
+        android:onClick="textAdd"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -40,6 +43,7 @@
 
     <Button
         android:id="@+id/buttonProcent"
+        android:onClick="textAdd"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/procent"
@@ -50,16 +54,18 @@
 
     <Button
         android:id="@+id/buttonNine"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_9"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonUmnogenie"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonEght"
-        app:layout_constraintTop_toTopOf="@+id/button6" />
+        app:layout_constraintTop_toTopOf="@+id/buttonUmnogenie" />
 
     <Button
         android:id="@+id/buttonEght"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_8"
@@ -70,6 +76,7 @@
 
     <Button
         android:id="@+id/buttonSeven"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_7"
@@ -80,6 +87,7 @@
 
     <Button
         android:id="@+id/buttonFour"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -93,7 +101,7 @@
         android:id="@+id/buttonOne"
         android:layout_width="61dp"
         android:layout_height="50dp"
-
+        android:onClick="onClick"
         android:text="@string/_1"
         app:layout_constraintEnd_toStartOf="@+id/buttonTwo"
         app:layout_constraintHorizontal_bias="0.5"
@@ -112,6 +120,7 @@
 
     <Button
         android:id="@+id/buttonNull"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_0"
@@ -125,13 +134,14 @@
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/dot"
-        app:layout_constraintEnd_toStartOf="@+id/button21"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRavno"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonNull"
-        app:layout_constraintTop_toTopOf="@+id/button21" />
+        app:layout_constraintTop_toTopOf="@+id/buttonRavno" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/buttonRavno"
+        android:onClick="textAdd"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -139,10 +149,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button20"
-        app:layout_constraintTop_toBottomOf="@+id/button17" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
 
     <Button
         android:id="@+id/buttonTwo"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_2"
@@ -154,15 +165,17 @@
     <Button
         android:id="@+id/buttonThree"
         android:layout_width="61dp"
+        android:onClick="onClick"
         android:layout_height="50dp"
         android:text="@string/_3"
-        app:layout_constraintEnd_toStartOf="@+id/button17"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMinus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonTwo"
-        app:layout_constraintTop_toTopOf="@+id/button17" />
+        app:layout_constraintTop_toTopOf="@+id/buttonMinus" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/buttonMinus"
+        android:onClick="textAdd"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"
@@ -174,6 +187,7 @@
 
     <Button
         android:id="@+id/buttonFive"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_5"
@@ -184,6 +198,7 @@
 
     <Button
         android:id="@+id/buttonSix"
+        android:onClick="onClick"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:text="@string/_6"
@@ -197,6 +212,7 @@
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:onClick="textAdd"
+
         android:text="@string/plus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -212,11 +228,11 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toStartOf="@+id/buttonProcent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/buttonClear"
         app:layout_constraintTop_toTopOf="@+id/buttonProcent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonClear"
         android:layout_width="61dp"
         android:layout_height="50dp"
         android:onClick="clearAll"
@@ -234,7 +250,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:text="@string/_0"
-        android:textSize="80dp"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
